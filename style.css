@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.flex{
+    display: flex;
+    flex-flow: wrap row;
+}
+.box{
+    background-color: whitesmoke;
+    position: absolute;
+    width:400px;
+    height:250px;
+    border: 1px solid rgb(6, 126, 230);
+    top:24%;
+    left:35%;
+    justify-content: center;
+    transition: 300ms;
+}
+.boxin{
+   /* left:-30%; */
+   transform: scale(0.5);
+}
+.inner{
+    display: flex;
+    padding: auto;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+    
+}
+#submit{
+    background-color: rgb(106, 175, 250);
+    color:white;
+    width: 80px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    color: rgb(106, 175, 250);
+    background-color:white;
+   
+    border: 1px solid  rgb(118, 176, 251);
+    border-radius: 15px;
+    
+}
+.btn{
+    background-color: rgb(106, 175, 250);
+    color:white;
+    width: 80px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    color: rgb(106, 175, 250);
+    background-color:white; 
+    border: 1px solid  rgb(118, 176, 251);
+    border-radius: 15px;
+    
+}
+
+
+/* Card  */
+.card{
+    
+    position: absolute;
+    /* background-color: rgba(105, 193, 255, 0.775); */
+    width:300px;
+    height:200px;
+    border: 1px solid rgba(111, 112, 112, 0.836);
+    border-radius: 10px;
+    top:-30%;
+    left:40%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    transition: 300ms;
+    box-shadow: 0 5px 10px rgba(142, 136, 136, 0.849);
+    background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+
+}
+.cardact{
+    display: flex;
+    top:30%;    
+}
+
+.can{
+    display: none;
+    width:100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.canact{
+    display: flex;
+}
+  

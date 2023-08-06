@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random guess</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex box">
+      <div class="flex inner inner1">
+        A random number between 0 and 100 is generated. Make you guess.
+      </div>
+      <div class="flex inner">
+        <label for="guess"> Enter your guess: </label>
+        <input id="guess" type="number" required />
+        <input type="submit" value="submit" id="submit" />
+      </div>
+    </div>
+    
+      <div class="card flex">
+        <div class="inner flex">
+          <p>
+            Hurray! <br />
+            You got the right guess. Your score is
+          </p>
+        </div>
+        <div class="btn rep flex">Replay</div>
+      </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
