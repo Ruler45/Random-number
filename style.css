@@ -82,7 +82,7 @@ body{
     height:200px;
     border: 1px solid rgba(111, 112, 112, 0.836);
     border-radius: 10px;
-    top:-30%;
+    top:-50%;
     left:40%;
     justify-content: space-evenly;
     align-items: center;
@@ -109,3 +109,18 @@ body{
     display: flex;
 }
   
+@media screen and (max-width :540px) {
+    .card{
+        left:20vw;
+        width:60vw;
+    }
+    .box{
+        
+        width:80vw;
+        height:230px;
+        border: 1px solid rgb(6, 126, 230);
+        top:24%;
+        left:10vw;
+        justify-self: center;
+    }
+}
